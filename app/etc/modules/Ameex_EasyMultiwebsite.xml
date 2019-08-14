@@ -1,0 +1,9 @@
+<?xml version="1.0" ?>
+<config>
+	<modules>
+		<Ameex_EasyMultiwebsite>
+			<active>true</active>
+			<codePool>community</codePool>
+		</Ameex_EasyMultiwebsite>
+	</modules>
+</config>

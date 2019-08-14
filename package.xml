@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package>
+    <name>EasyMultiwebsite_Creation</name>
+    <version>1.0.0</version>
+    <stability>stable</stability>
+    <license>Open Software License (OSL)</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>EasyMultiwebsite creation module allows to create multiple website in a single step and also allows to delete the website that is created</summary>
+    <description>EasyMultiwebsite creation Module  will create multiple website in a quick way.It wll create the website by just entering foldername, website name, storename, storeview name.&#xD;
+first step is it create a root folder with index.php and .htaccess inside.&#xD;
+second step is it create a root category with name we given for website.&#xD;
+third step is it create a website,store and storeview.&#xD;
+fourth step is it edits the baseurl for the website we created.</description>
+    <notes>Initial functionality of creating and deleting the website is added in this module. Further more enhancement in the next version of this module</notes>
+    <authors><author><name>commercebees</name><user>CommerceBees</user><email>support@commercebees.com</email></author></authors>
+    <date>2015-09-01</date>
+    <time>11:05:44</time>
+    <contents><target name="magecommunity"><dir><dir name="Ameex"><dir name="EasyMultiwebsite"><dir name="Block"><dir name="Adminhtml"><file name="Easymultiwebsite.php" hash="16829814531a1d219d4c6f4d705e4fa5"/></dir></dir><dir name="Helper"><file name="Data.php" hash="a38668a41143fec281e064fae6077cf4"/></dir><dir name="Model"><file name="Observer.php" hash="111684d1ada789efbfcca83f23bf414e"/></dir><dir name="controllers"><file name="IndexController.php" hash="7cf9074c2d2166e42af469acef3f54b3"/></dir><dir name="etc"><file name="config.xml" hash="b91011a58b58f167a0b39c09707b0969"/><file name="system.xml" hash="690d0100cd5250a5d740ebe9cd389717"/></dir></dir></dir></dir></target><target name="mageetc"><dir><dir name="modules"><file name="Ameex_EasyMultiwebsite.xml" hash="97ab7081fc9f1dcf282edab0cbe8288e"/></dir></dir></target><target name="magedesign"><dir><dir name="adminhtml"><dir name="default"><dir name="default"><dir name="template"><dir name="easymultiwebsite"><file name="array_delete.phtml" hash="640891feaf37f39bc5f1b7967afa33e6"/></dir></dir></dir></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.1.0</min><max>5.5.0</max></php></required></dependencies>
+</package>

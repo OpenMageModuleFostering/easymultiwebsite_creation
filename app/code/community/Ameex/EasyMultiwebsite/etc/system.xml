@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<config>
+	<tabs>
+		<easymultiwebsite translate="label" module="easymultiwebsite">
+			<label>Easymultiwebsite Configuration</label>
+			<sort_order>1</sort_order>
+		</easymultiwebsite>
+	</tabs>
+	<sections>
+		<easymultiwebsite_options translate="label" module="easymultiwebsite">
+			<label>Multi website setting</label>
+			<tab>easymultiwebsite</tab>
+			<frontend_type>text</frontend_type>
+			<sort_order>1</sort_order>
+			<show_in_default>1</show_in_default>
+			<show_in_website>1</show_in_website>
+			<show_in_store>1</show_in_store>
+			<groups>
+				<setting translate="label">
+					<label>Configure the settings</label>
+					 <frontend_type>text</frontend_type>
+ 					 <sort_order>1</sort_order>
+					<show_in_default>1</show_in_default>
+					<show_in_website>1</show_in_website>
+					<show_in_store>1</show_in_store>					
+					<fields>
+						<storeviewname>
+							<label>Click Add new button to create multiple website </label>
+							 <frontend_model>easymultiwebsite_adminhtml/easymultiwebsite</frontend_model>
+							 <backend_model>adminhtml/system_config_backend_serialized_array</backend_model>
+							<sort_order>1000</sort_order>
+							<show_in_default>1</show_in_default>
+							<show_in_website>1</show_in_website>
+							<show_in_store>1</show_in_store>
+						</storeviewname>
+					</fields>
+				</setting>
+			</groups>		
+		</easymultiwebsite_options>
+	</sections>
+</config>
+ 
