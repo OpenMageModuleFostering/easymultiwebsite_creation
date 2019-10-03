@@ -1,7 +1,7 @@
 {
-    "name": "OpenMageModuleFostering\/EasyMultiwebsite_Creation",
+    "name": "openmage-module-fostering\/easymultiwebsite_creation",
     "type": "magento-module",
-    "license": "Open-Software-License-(OSL)",
+    "license": "OSL-3.0",
     "homepage": "",
     "description": "EasyMultiwebsite creation module allows to create multiple website in a single step and also allows to delete the website that is created",
     "authors": [
