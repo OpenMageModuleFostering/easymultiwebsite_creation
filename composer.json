@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/EasyMultiwebsite_Creation",
+    "name": "OpenMageModuleFostering\/EasyMultiwebsite_Creation",
     "type": "magento-module",
     "license": "Open-Software-License-(OSL)",
     "homepage": "",
     "description": "EasyMultiwebsite creation module allows to create multiple website in a single step and also allows to delete the website that is created",
     "authors": [
-    {
-        "name": "commercebees",
-        "email": "support@commercebees.com"
-    }
-],
+        {
+            "name": "commercebees",
+            "email": "support@commercebees.com"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
